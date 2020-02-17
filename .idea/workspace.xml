@@ -111,6 +111,15 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1227000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="651" y="23" width="1110" height="937" extended-state="0" />
     <layout>
