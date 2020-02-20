@@ -1,5 +1,11 @@
 body{
     background-color: #FFE16E;
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    background-color: #FFD766;
 }
 
 ul {
@@ -8,10 +14,16 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #FFD766;
+    display: flex;
 }
 
 li {
-    float: left;
+    list-style-type: none;
+    /*vw = viewport width
+      vh = viewport height
+      these two margin numbers, the first for the top and bottom, the second is left and right*/
+    margin: 0 2vw;
+    font-size: 3vh;
 }
 
 li a {
