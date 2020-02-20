@@ -1,11 +1,11 @@
-body{
-    background-color: #FFE16E;
+body {
+    background-color: #F7FFE0;
     margin: 0;
 }
 
 nav {
     width: 100vw;
-    background-color: #FFD766;
+    background-color: #F2EFC7;
 }
 
 ul {
@@ -13,8 +13,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFD766;
+    background-color: #F2EFC7;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 li {
@@ -28,7 +30,7 @@ li {
 
 a {
     display: block;
-    color: #FFBB60;
+    color: #D2BBA0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -36,9 +38,42 @@ a {
 }
 
 li a:hover {
-    background-color: #E8B04A;
+    background-color: #9F7E69;
 }
 
 .active {
-    background-color: #854EFF;
+    background-color: #9F7E69;
+}
+
+button {
+    display: none;
+}
+
+h1 {
+    color: #9F7E69;
+    text-align: center;
+}
+
+.header {
+    color: #9F7E69;
+    margin: 10px 43vw;
+    border-style: double;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    a {
+        display: block;
+    }
 }
