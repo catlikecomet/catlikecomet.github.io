@@ -1,0 +1,39 @@
+body {
+    background-color: #F7FFE0;
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    background-color: #F2EFC7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2EFC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    /*vw = viewport width
+      vh = viewport height
+      these two margin numbers, the first for the top and bottom, the second is left and right*/
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+a {
+    display: block;
+    color: #D2BBA0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
