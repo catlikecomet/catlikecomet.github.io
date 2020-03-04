@@ -3,9 +3,51 @@ body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 nav {
     width: 100vw;
     background-color: #F2EFC7;
+    box-shadow: 0 0 5px  0 #9F7E69;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+
+nav.option ul li a {
+    transition: all 2s;
+    position: relative;
+}
+
+nav.option ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    text-align: left;
+    color: transparent;
+    background-color: #9F7E69;
+    height: 1px;
+    content: '.';
+    opacity: 0;
+}
+
+nav.option ul li a:hover {
+    background-color: #9F7E69;
+    z-index: 1;
+}
+
+nav.option ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    opacity: 1;
 }
 
 ul {
@@ -37,3 +79,265 @@ a {
     font-family: monospace;
 }
 
+p {
+    font-family: monospace;
+    color: #9F7E69;
+}
+
+.active {
+    background-color: #9F7E69;
+}
+
+button {
+    display: none;
+}
+
+h1 {
+    color: #9F7E69;
+    text-align: center;
+    border-style: double;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    a {
+        display: block;
+    }
+
+    .column1 {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+li a:hover {
+    background-color: #9F7E69;
+}
+.container {
+    size: 50px;
+    position: relative;
+    width: 100%;
+    background-color: #F2EFC7;
+}
+
+.gif {
+    size: 50px;
+    position: relative;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.java {
+    width: 30%;
+    background-color: darksalmon;
+}
+
+.html {
+    width: 70%;
+    background-color: peachpuff;
+}
+
+.css {
+    width: 40%;
+    background-color: darksalmon;
+}
+
+.php {
+    width: 50%;
+    background-color: peachpuff;
+}
+
+.vb {
+    width: 80%;
+    background-color: darksalmon;
+}
+
+.js {
+    width: 10%;
+    background-color: peachpuff;
+}
+
+.cpp {
+    width: 2%;
+    background-color: darksalmon;
+}
+
+.slides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #F2EFC7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    background-color: #9F7E69;
+    opacity: 0.6;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    cursor: pointer;
+    background-color: #9F7E69;
+    opacity: 1;
+}
+
+.text {
+    color: #D2BBA0;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption {
+    text-align: center;
+    background-color: #9F7E69;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.demo {
+    opacity: 0.6;
+    height: 400px;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.catswrite {
+    font-family: monospace;
+    font-size: 100px;
+    text-align: center;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column1 {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.content:hover .content-overlay {
+    opacity: 0.5;
+}
+.descrip {
+    position: absolute;
+    text-align: center;
+    padding: 2px 0;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .descrip {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.descrip h3 {
+    color: #F7FFE0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.descrip p {
+    color: #F7FFE0;
+    font-size: 0.8em;
+}
+
+.fadeIn {
+    top: 80%;
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content .content-overlay {
+    background: #9F7E69;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+}

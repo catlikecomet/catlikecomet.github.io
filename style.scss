@@ -1,0 +1,23 @@
+$pageColour: #F7FFE0;
+$navBackColour: #F2EFC7;
+$textColour: #D2BBA0;
+$hoverColour: #9F7E69;
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100vw;
+  background-color: $navBackColour;
+  box-shadow: 0 0 5px 0 $hoverColour;
+}
+
+nav ul li a {
+  &a:after {
+    &a:before {
+      transition: all .5s;
+    }
+  }
+}
+
