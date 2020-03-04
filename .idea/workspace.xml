@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="627772c2-6aed-4c5c-b3eb-e27f12a9abad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/20151112_220645.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20151116_192324.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20160831_212700.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20160922_210411.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20161010_180746.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20161218_182738.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20180905_012926.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20190703_123019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20190715_221812.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FB_IMG_1447413725182.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FB_IMG_1447413733420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FB_IMG_1499043648491.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FB_IMG_1521633048789.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FB_IMG_1521985400246.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FB_IMG_1522232080796.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG_20151112_222000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/received_303054220412024.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art.css" beforeDir="false" afterPath="$PROJECT_DIR$/art.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/art.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +81,7 @@
       <workItem from="1582304416536" duration="1974000" />
       <workItem from="1582553278059" duration="3398000" />
       <workItem from="1582630511522" duration="1601000" />
-      <workItem from="1583318450847" duration="12596000" />
+      <workItem from="1583318450847" duration="13299000" />
     </task>
     <servers />
   </component>
