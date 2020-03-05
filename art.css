@@ -282,7 +282,6 @@ li a:hover {
 }
 
 .column1 img {
-    margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
@@ -325,7 +324,7 @@ li a:hover {
 
 .content {
     position: relative;
-    margin: auto;
+    margin: 8px;
     overflow: hidden;
 }
 
