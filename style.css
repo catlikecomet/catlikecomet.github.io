@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #F7FFE0;
   margin: 0;
@@ -78,10 +79,6 @@ p {
 
 .active {
   background-color: #9F7E69;
-}
-
-button {
-  display: none;
 }
 
 h1 {
@@ -183,12 +180,11 @@ li a:hover {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: #F2EFC7;
+  color: white;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
-  background-color: #9F7E69;
-  opacity: 0.6;
+  user-select: none;
 }
 
 .next {
@@ -198,13 +194,11 @@ li a:hover {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: #F2EFC7;
+  color: white;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
-  background-color: #9F7E69;
-  opacity: 0.6;
-  right: 0;
+  user-select: none;
 }
 
 .prev:hover,
@@ -335,6 +329,44 @@ li a:hover {
   right: 0;
   opacity: 0;
   transition: all 0.4s ease-in-out 0s;
+}
+
+.actualButton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F2EFC7;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+  padding: 20px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.actualButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.actualButton span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.actualButton:hover span {
+  padding-right: 25px;
+}
+.actualButton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

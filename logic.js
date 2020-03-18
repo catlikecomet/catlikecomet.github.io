@@ -1,3 +1,4 @@
+//cannot use const or let, the version of js is not compatible
 var slideIndex = 1;
 showSlides(slideIndex);
 
