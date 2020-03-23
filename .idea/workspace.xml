@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="627772c2-6aed-4c5c-b3eb-e27f12a9abad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/art.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/logic.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +43,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -89,6 +90,7 @@
       <workItem from="1584953582611" duration="2376000" />
       <workItem from="1584957141754" duration="503000" />
       <workItem from="1584959817176" duration="273000" />
+      <workItem from="1584978494921" duration="599000" />
     </task>
     <servers />
   </component>
@@ -109,6 +111,10 @@
       <screen x="-1141" y="-1417" width="2560" height="1417" />
     </state>
     <state x="-397" y="-1047" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1141.-1417.2560.1417/0.23.1680.947@-1141.-1417.2560.1417" timestamp="1582555615875" />
+    <state x="800" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584974867233">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="800" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.944@0.23.1680.944" timestamp="1584974867233" />
     <state x="578" y="241" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583335182787">
       <screen x="0" y="23" width="1680" height="929" />
     </state>
