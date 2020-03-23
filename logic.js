@@ -1,20 +1,31 @@
-//cannot use const or let, the version of js is not compatible
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
+function keyPress(n) {
+    switch (KeyboardEvent.key) {
+        case 37:
+        case 39:
+            plusSlides(n);
+    }
+}
+
+keyPress();
+
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+currentSlide();
+
 function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("slides");
-    var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementsByClassName("caption");
+    let i;
+    let slides = document.getElementsByClassName("slides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementsByClassName("caption");
 
     if (n > slides.length) {
         slideIndex = 1
@@ -24,15 +35,11 @@ function showSlides(n) {
         slideIndex = slides.length
     }
 
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
 }
