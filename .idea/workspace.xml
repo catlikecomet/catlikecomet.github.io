@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="627772c2-6aed-4c5c-b3eb-e27f12a9abad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art.css" beforeDir="false" afterPath="$PROJECT_DIR$/art.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/art.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/logic.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +46,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -90,7 +93,7 @@
       <workItem from="1584953582611" duration="2376000" />
       <workItem from="1584957141754" duration="503000" />
       <workItem from="1584959817176" duration="273000" />
-      <workItem from="1584978494921" duration="599000" />
+      <workItem from="1584978494921" duration="3388000" />
     </task>
     <servers />
   </component>

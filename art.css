@@ -88,10 +88,6 @@ p {
     background-color: #9F7E69;
 }
 
-button {
-    display: none;
-}
-
 h1 {
     color: #9F7E69;
     text-align: center;
@@ -182,6 +178,10 @@ li a:hover {
 
 .slides {
     display: none;
+}
+
+.showslide {
+    display: block !important;
 }
 
 .cursor {
